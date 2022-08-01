@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 400px;
+    width: 600px;
+    background-color: rgb(179, 177, 177);
+    display: block;
+    border-radius: 5px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 600px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 30px 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.contador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 100px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+#start {
+    color: rgb(255, 255, 255);
+    background-color: rgb(21, 146, 21);
+}
+
+#start:hover {
+    background-color: rgb(16, 124, 16);
+}
+
+#stop {
+    color: aliceblue;
+    background-color: rgb(230, 18, 18);
+}
+
+#stop:hover {
+    background-color: rgb(202, 13, 13);
+
+}
+
+#reset{
+    color: rgb(255, 255, 255);
+    background-color: rgb(121, 121, 121);
+}
+
+#reset:hover{
+    background-color: rgb(143, 142, 142);
+}
